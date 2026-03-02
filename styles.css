@@ -4,7 +4,7 @@ font-family: Arial, sans-serif;
 
 color: #333;
 
-background-color: #f9f9f9;
+background-color: #180963be;
 
 margin: 0;
 
@@ -15,9 +15,9 @@ line-height: 1.6;
 }
 header {
 
-background-color: #4CAF50;
+background-color: #5d07de94;
 
-color: white;
+color: rgba(193, 175, 243, 0.753);
 
 padding: 20px;
 
@@ -70,9 +70,9 @@ margin: 20px 0;
 }
 footer {
 
-background-color: #333;
+background-color: #212121;
 
-color: white;
+color: rgba(12, 158, 242, 0.899);
 
 text-align: center;
 
@@ -94,7 +94,7 @@ font-size: 1.1em;
 
 a {
 
-color: #4CAF50;
+color: #3d0bd5;
 
 text-decoration: none;
 
@@ -108,14 +108,14 @@ text-decoration: underline;
 }
 img {
 
-border: 5px solid #4CAF50;
+border: 5px solid #06a5fa;
 
 border-radius: 10px;
 
 }
 main a[href^="mailto:"] {
 
-color: #ff5722;
+color: #22c8ff;
 
 font-weight: bold;
 
