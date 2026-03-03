@@ -1,12 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</Menu:context></title>
-</head>
-<body>
-   <header> 
+  <header> 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
         <div class="container"> 
             <a class="navbar-brand" href="index.html">SONIC LAB</a> 
@@ -40,18 +35,58 @@
             </div> 
         </div> 
     </nav> 
-    <link rel="stylesheet" href="styles.css">
-</header> 
-    <main class="container my-5"> 
-    <h2>About Website</h2> 
-    <p>This is my first multi-page website, and I'm excited to share it with you! about some instruments
-    <p> Click the links above to learn more</p>
-</main> 
-    <footer>
-        <p>&copy;2026 Thero Bagwasi</p>
-    </footer>
-    <!-- Bootstrap JS and dependencies --> 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
+    </head>
+  <link rel="stylesheet" href="styles.css">
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Instrument Table</h2>
+
+<table>
+  <tr>
+    <th>Instrument</th>
+    <th>Primary Gear</th>
+    <th>Role/sound Profile</th>
+  </tr>
+  <tr>
+    <td>Keyboard</td>
+    <td>Nord stage 4</td>
+    <td>Pads and synth leads</td>
+  </tr>
+  <tr>
+    <td>Lead Guitar</td>
+    <td>fender strat HSS</td>
+    <td>Overdriven Solos</td>
+  </tr>
+  <tr>
+    <td>Bass Guitar</td>
+    <td>Ibanez yamaha-TRBX304-CAR-bass-guitar</td>
+    <td>Low-end Punch</td>
+  </tr>
+  <tr>
+    <td>Drums</td>
+    <td>yamaha 5 piece drum set</td>
+    <td>High-intensity Rhythm</td>
+  </tr>
+</table>
+
 </body>
 </html>
+
